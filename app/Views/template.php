@@ -17,4 +17,9 @@
             </div>
         </nav>
     </body>
+    <section>
+        <div class="container">
+            <h1> Welcome to Learning Management System!</h1>
+        </div>
+    </section>
 </html>
