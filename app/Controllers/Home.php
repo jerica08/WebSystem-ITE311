@@ -1,10 +1,11 @@
 <?php
-define('BASEPATH') OR exit ('No direct script access allowed');
 
-class Home extends CI_Controller {
+namespace App\Controllers;
 
-    public function index() {
-        $this->load->view('template');
+class Home extends BaseController
+{
+    public function index(): string
+    {
+        return view('template');
     }
 }
-?>
